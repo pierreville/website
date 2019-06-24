@@ -8,23 +8,23 @@ header {
 	background-color: $nav-background; 
 }
 
-.container {
-	margin: 0 auto;
+.navigation {
+	height: $nav-height;
+	background: $nav-background;
 }
 
 .nav-container {
 	height: $nav-height;
-	max-width: $content-width;
 	padding: $content-padding;
-}
-
-.navigation {
+	max-width: $content-width;
+	margin: 0 auto;
 }
 
 .brand {
 	float: left;
 	font-size: 32px;
 	line-height: $nav-height;
+	position: absolute;
 
 	a {
 		color: $nav-font-color;
@@ -104,13 +104,17 @@ nav {
 		display: block;
 	}
 
+	.visited {
+		display:none;
+	}
+
 	.nav-dropdown {
 		position: static;
 	}
-	
+
 	nav {
 		width: 100%;
-		/* padding: $nav-height 0 15px; */
+		padding: $nav-height 0 15px;
 
 		ul {
 			display:none;
@@ -179,6 +183,7 @@ nav {
 main {
 
 	max-width: $content-width;
+	margin: 0 auto;
 	padding: $content-padding;
 
 
