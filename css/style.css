@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.flexbox .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+.flexbox .column {
+  flex-basis: 100%; }
+@media screen and (min-width: 800px) {
+  .flexbox .column {
+    flex: 1; } }
+
 html {
   font-size: 24px; }
 
@@ -151,5 +161,27 @@ footer {
 .overlay {
   display: none;
   position: fixed; }
+
+.center {
+  text-align: center; }
+
+/* Colors */
+.green-background {
+  background-color: #429a42; }
+
+.yellow-background {
+  background-color: #f7f749; }
+
+.red-background {
+  background-color: #ea3535; }
+
+.light-gray-background {
+  background-color: #EEEEEE; }
+
+.medium-gray-background {
+  background-color: #DDDDDD; }
+
+.dark-gray-background {
+  background-color: #CCCCCC; }
 
 /*# sourceMappingURL=style.css.map */

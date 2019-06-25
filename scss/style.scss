@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'flexbox.scss';
 
 html {
 	font-size: 24px;
@@ -217,4 +218,29 @@ footer{
 .overlay {
 	display: none;
 	position: fixed;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Colors */
+
+.green-background {
+	background-color: $green;
+}
+.yellow-background {
+	background-color: $yellow;
+}
+.red-background {
+	background-color: $red;
+}
+.light-gray-background {
+	background-color: $light-gray;
+}
+.medium-gray-background {
+	background-color: $medium-gray;
+}
+.dark-gray-background {
+	background-color: $dark-gray;
 }
